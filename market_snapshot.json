@@ -1,0 +1,650 @@
+{
+    "GODREJCP": {
+        "reference_price": 1021.2,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "FEDERALBNK": {
+        "reference_price": 279.3,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "LUPIN": {
+        "reference_price": 2247.3,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BHARTIARTL": {
+        "reference_price": 1827.3,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "PNB": {
+        "reference_price": 102.98,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "CANBK": {
+        "reference_price": 128.25,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "DIVISLAB": {
+        "reference_price": 6872.5,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "MARUTI": {
+        "reference_price": 12943.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "UPL": {
+        "reference_price": 632.3,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BIOCON": {
+        "reference_price": 417.5,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "LT": {
+        "reference_price": 3950.6,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "ULTRACEMCO": {
+        "reference_price": 11578.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "TCS": {
+        "reference_price": 2243.7,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "COFORGE": {
+        "reference_price": 1268.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "NTPC": {
+        "reference_price": 393.55,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "JSWSTEEL": {
+        "reference_price": 1292.7,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "YESBANK": {
+        "reference_price": 22.15,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "SUZLON": {
+        "reference_price": 52.83,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "ABB": {
+        "reference_price": 6250.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "KEI": {
+        "reference_price": 4878.9,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "HDFCBANK": {
+        "reference_price": 753.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "TECHM": {
+        "reference_price": 1348.5,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "IRCTC": {
+        "reference_price": 536.8,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "HINDALCO": {
+        "reference_price": 1094.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "HINDUNILVR": {
+        "reference_price": 2257.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "PFC": {
+        "reference_price": 444.55,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "DLF": {
+        "reference_price": 555.4,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "POWERGRID": {
+        "reference_price": 302.15,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "NMDC": {
+        "reference_price": 91.95,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "RECLTD": {
+        "reference_price": 345.4,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "INFY": {
+        "reference_price": 1107.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "IOC": {
+        "reference_price": 139.51,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "ITC": {
+        "reference_price": 305.95,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BAJAJFINSV": {
+        "reference_price": 1720.4,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "ADANIPOWER": {
+        "reference_price": 220.01,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "NHPC": {
+        "reference_price": 78.22,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "JSWENERGY": {
+        "reference_price": 507.1,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "GODREJPROP": {
+        "reference_price": 1697.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "JIOFIN": {
+        "reference_price": 230.12,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "PERSISTENT": {
+        "reference_price": 4665.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "RBLBANK": {
+        "reference_price": 326.1,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "VBL": {
+        "reference_price": 491.65,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "KOTAKBANK": {
+        "reference_price": 377.75,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "LAURUSLABS": {
+        "reference_price": 1298.3,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BSE": {
+        "reference_price": 3956.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "TRENT": {
+        "reference_price": 4118.4,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "DMART": {
+        "reference_price": 4284.5,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "OBEROIRLTY": {
+        "reference_price": 1600.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "IREDA": {
+        "reference_price": 127.25,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "IRFC": {
+        "reference_price": 101.23,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "PRESTIGE": {
+        "reference_price": 1344.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "M&M": {
+        "reference_price": 3112.3,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "COALINDIA": {
+        "reference_price": 464.15,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "ASHOKLEY": {
+        "reference_price": 150.26,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "AUBANK": {
+        "reference_price": 997.6,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BDL": {
+        "reference_price": 1342.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "COCHINSHIP": {
+        "reference_price": 1604.8,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "HAL": {
+        "reference_price": 4617.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "PIIND": {
+        "reference_price": 3104.6,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "RAILTEL": {
+        "reference_price": 321.9,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "ONGC": {
+        "reference_price": 300.1,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "SWIGGY": {
+        "reference_price": 253.8,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "AUROPHARMA": {
+        "reference_price": 1502.1,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "RELIANCE": {
+        "reference_price": 1359.5,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "INDUSTOWER": {
+        "reference_price": 418.9,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "SBIN": {
+        "reference_price": 972.2,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "VEDL": {
+        "reference_price": 330.1,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "MCX": {
+        "reference_price": 3228.9,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "NBCC": {
+        "reference_price": 93.95,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "SIEMENS": {
+        "reference_price": 3485.6,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BAJFINANCE": {
+        "reference_price": 890.1,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "SRF": {
+        "reference_price": 2672.3,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "SUNPHARMA": {
+        "reference_price": 1844.6,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "TATAELXSI": {
+        "reference_price": 3977.1,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "TATAPOWER": {
+        "reference_price": 405.95,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "TATASTEEL": {
+        "reference_price": 221.06,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "TITAN": {
+        "reference_price": 4071.6,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "TORNTPHARM": {
+        "reference_price": 4348.1,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "WIPRO": {
+        "reference_price": 187.79,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BEL": {
+        "reference_price": 427.4,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "MARICO": {
+        "reference_price": 837.65,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BHARATFORG": {
+        "reference_price": 1949.2,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "MPHASIS": {
+        "reference_price": 2103.9,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BANKBARODA": {
+        "reference_price": 264.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "GAIL": {
+        "reference_price": 161.09,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "ICICIBANK": {
+        "reference_price": 1239.4,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "MAZDOCK": {
+        "reference_price": 2471.7,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "ETERNAL": {
+        "reference_price": 240.35,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "INDUSINDBK": {
+        "reference_price": 899.4,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BPCL": {
+        "reference_price": 292.9,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "BRITANNIA": {
+        "reference_price": 5320.5,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "AXISBANK": {
+        "reference_price": 1251.8,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "NYKAA": {
+        "reference_price": 270.7,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "POLICYBZR": {
+        "reference_price": 1633.6,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "PAYTM": {
+        "reference_price": 1105.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "CIPLA": {
+        "reference_price": 1416.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "HCLTECH": {
+        "reference_price": 1121.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "CGPOWER": {
+        "reference_price": 829.95,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "DABUR": {
+        "reference_price": 459.05,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "INOXWIND": {
+        "reference_price": 96.38,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "ZYDUSLIFE": {
+        "reference_price": 981.8,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "TVSMOTOR": {
+        "reference_price": 3391.0,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "DRREDDY": {
+        "reference_price": 1266.1,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "EICHERMOT": {
+        "reference_price": 6867.5,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "RVNL": {
+        "reference_price": 284.45,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "POLYCAB": {
+        "reference_price": 8960.5,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "KPITTECH": {
+        "reference_price": 695.8,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    },
+    "HAVELLS": {
+        "reference_price": 1189.8,
+        "volume": 0,
+        "sector": "UNKNOWN",
+        "time": "10:11"
+    }
+}
