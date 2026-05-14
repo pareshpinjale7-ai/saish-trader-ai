@@ -1,0 +1,935 @@
+# FULL UPDATED index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAISH TRADER - INSTITUTIONAL DASHBOARD</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#020b24;
+    color:white;
+    display:flex;
+}
+
+.sidebar{
+    width:240px;
+    height:100vh;
+    background:#08142e;
+    padding:20px;
+    position:fixed;
+    left:0;
+    top:0;
+    overflow:auto;
+    border-right:1px solid #16335f;
+}
+
+.logo{
+    color:#00ffb3;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:40px;
+    line-height:36px;
+}
+
+.menu-title{
+    color:#5f6b8a;
+    margin-top:20px;
+    margin-bottom:15px;
+    font-size:12px;
+}
+
+.menu-item{
+    padding:14px;
+    border-radius:10px;
+    margin-bottom:10px;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:17px;
+}
+
+.menu-item:hover{
+    background:#0f2146;
+}
+
+.active{
+    background:#112a57;
+    color:#00ffb3;
+}
+
+.main{
+    margin-left:240px;
+    width:100%;
+    padding:20px;
+}
+
+.topbar{
+    background:#08142e;
+    border:1px solid #14345f;
+    border-radius:25px;
+    padding:25px;
+    text-align:center;
+    margin-bottom:25px;
+    font-size:30px;
+    font-weight:bold;
+    color:#00ffb3;
+    box-shadow:0 0 20px rgba(0,255,179,0.15);
+}
+
+.live-dot{
+    width:12px;
+    height:12px;
+    background:#ff003c;
+    border-radius:50%;
+    display:inline-block;
+    animation:blink 1s infinite;
+    margin-left:8px;
+}
+
+@keyframes blink{
+    50%{
+        opacity:0.2;
+    }
+}
+
+.card{
+    background:#08142e;
+    border:1px solid #14345f;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:25px;
+}
+
+.section-title{
+    color:#00ffb3;
+    font-size:22px;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+.grid-2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.grid-3{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+}
+
+.box{
+    background:#0b1838;
+    border:1px solid #183967;
+    border-radius:18px;
+    overflow:hidden;
+}
+
+.box-header{
+    padding:20px;
+    border-bottom:1px solid #183967;
+}
+
+.box-title{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.box-sub{
+    color:#9fb5d8;
+    font-size:13px;
+}
+
+.table-wrap{
+    overflow:auto;
+}
+
+.filter-row{
+    display:flex;
+    gap:10px;
+    padding:15px;
+}
+
+.filter-box{
+    background:#08142e;
+    border:1px solid #234d83;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+}
+
+.market-trend{
+    font-size:20px;
+    padding:15px;
+    border-radius:15px;
+    margin-bottom:20px;
+    text-align:center;
+    font-weight:bold;
+    box-shadow:0 0 20px rgba(0,255,179,0.15);
+}
+
+.bullish{
+    background:#003b29;
+    color:#00ffb3;
+}
+
+.bearish{
+    background:#4d0014;
+    color:#ff4b6e;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#1a2745;
+    color:#00ffb3;
+    padding:15px;
+    font-size:13px;
+}
+
+tr:hover{
+    background:#12254a;
+    transition:0.2s;
+}
+
+td{
+    padding:18px;
+    text-align:center;
+    border-bottom:1px solid #15294f;
+}
+
+.green{
+    color:#00ffb3;
+    font-weight:bold;
+}
+
+.red{
+    color:#ff4b6e;
+    font-weight:bold;
+}
+
+.rfac-high{
+    color:#00ffb3;
+    font-weight:bold;
+    text-shadow:0 0 10px #00ffb3;
+}
+
+.rfac-low{
+    color:#ff4b6e;
+    font-weight:bold;
+    text-shadow:0 0 10px #ff4b6e;
+}
+
+.chart-btn{
+    background:#00ffb3;
+    color:#021226;
+    border:none;
+    padding:8px 14px;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.chart-btn:hover{
+    background:white;
+}
+
+.sector-bars{
+    display:flex;
+    align-items:flex-end;
+    gap:18px;
+    height:260px;
+    padding:20px;
+}
+
+.bar-wrap{
+    flex:1;
+    text-align:center;
+}
+
+.bar{
+    width:100%;
+    border-radius:15px 15px 0 0;
+    transition:0.5s ease;
+    box-shadow:0 0 15px rgba(0,255,179,0.3);
+}
+
+.bar-name{
+    margin-top:10px;
+    font-size:12px;
+    color:#c8d4ec;
+}
+
+.metric-box{
+    background:#0b1838;
+    border:1px solid #183967;
+    border-radius:18px;
+    padding:25px;
+    text-align:center;
+}
+
+.metric-value{
+    font-size:32px;
+    margin-top:10px;
+    color:#00ffb3;
+    font-weight:bold;
+}
+
+@media(max-width:900px){
+
+    body{
+        display:block;
+    }
+
+    .sidebar{
+        width:100%;
+        height:auto;
+        position:relative;
+    }
+
+    .main{
+        margin-left:0;
+        padding:10px;
+    }
+
+    .grid-2,
+    .grid-3{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+
+<div class="logo">
+🔥 SAISH <br>
+TRADER AI
+</div>
+
+<div class="menu-title">
+LIVE MODULES
+</div>
+
+<div class="menu-item active">
+📊 Market Pulse
+</div>
+
+<div class="menu-item">
+⚡ Intraday Boost
+</div>
+
+<div class="menu-item">
+🌍 Sector Scope
+</div>
+
+<div class="menu-item">
+📈 Portfolio
+</div>
+
+<div class="menu-item">
+📒 Trade Journal
+</div>
+
+<div class="menu-item">
+🧠 Option Chain
+</div>
+
+<div class="menu-item">
+📊 Backtest
+</div>
+
+</div>
+
+<div class="main">
+
+<div class="topbar">
+🔥 SAISH TRADER • INSTITUTIONAL SCANNER
+<span class="live-dot"></span>
+LIVE
+</div>
+
+<div id="market-trend-box" class="market-trend bullish">
+MARKET LOADING...
+</div>
+
+<div class="grid-3">
+
+<div class="metric-box">
+TOTAL SIGNALS
+<div class="metric-value" id="signal-count">0</div>
+</div>
+
+<div class="metric-box">
+TOP RFAC
+<div class="metric-value" id="top-rfac">0</div>
+</div>
+
+<div class="metric-box">
+MARKET STATUS
+<div class="metric-value" id="market-status">LIVE</div>
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+
+<div class="section-title">
+📈 MARKET PULSE
+</div>
+
+<div class="grid-2">
+
+<div class="box">
+
+<div class="box-header">
+<div class="box-title">
+🔥 BREAKOUT BEACON
+</div>
+<div class="box-sub">
+Smart breakout scanner
+</div>
+</div>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>SYMBOL</th>
+<th>LTP</th>
+<th>%MOVE</th>
+<th>CHART</th>
+<th>R.FACT</th>
+</tr>
+</thead>
+<tbody id="breakout-body"></tbody>
+</table>
+</div>
+
+</div>
+
+<div class="box">
+
+<div class="box-header">
+<div class="box-title">
+⚡ INTRADAY BOOST
+</div>
+<div class="box-sub">
+Momentum sustain scanner
+</div>
+</div>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>SYMBOL</th>
+<th>LTP</th>
+<th>R.FAC</th>
+<th>%MOVE</th>
+<th>CHART</th>
+<th>R.FACT</th>
+</tr>
+</thead>
+<tbody id="boost-body"></tbody>
+</table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+<div class="section-title">
+🌍 LIVE SECTOR SCOPE
+</div>
+<div class="sector-bars" id="sector-bars"></div>
+</div>
+
+<div class="grid-2">
+
+<div class="card">
+<div class="section-title">
+📒 TRADE JOURNAL
+</div>
+
+<table>
+<thead>
+<tr>
+<th>SYMBOL</th>
+<th>ENTRY</th>
+<th>EXIT</th>
+<th>PNL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RELIANCE</td>
+<td>1450</td>
+<td>1472</td>
+<td class="green">+2200</td>
+</tr>
+<tr>
+<td>HDFCBANK</td>
+<td>1880</td>
+<td>1868</td>
+<td class="red">-900</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="card">
+<div class="section-title">
+📊 BACKTEST ANALYTICS
+</div>
+
+<table>
+<thead>
+<tr>
+<th>METRIC</th>
+<th>VALUE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WIN RATE</td>
+<td class="green">72%</td>
+</tr>
+<tr>
+<td>TOTAL TRADES</td>
+<td>152</td>
+</tr>
+<tr>
+<td>NET PNL</td>
+<td class="green">₹ 1,82,000</td>
+</tr>
+<tr>
+<td>MAX DRAWDOWN</td>
+<td class="red">-4.2%</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div>
+
+<div class="grid-2">
+
+<div class="card">
+<div class="section-title">
+🧠 OPTION CHAIN
+</div>
+
+<table>
+<thead>
+<tr>
+<th>STRIKE</th>
+<th>CALL OI</th>
+<th>PUT OI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>24500</td>
+<td class="red">12.4L</td>
+<td class="green">18.7L</td>
+</tr>
+<tr>
+<td>24600</td>
+<td class="red">15.1L</td>
+<td class="green">21.2L</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="card">
+<div class="section-title">
+📈 PORTFOLIO
+</div>
+
+<table>
+<thead>
+<tr>
+<th>STOCK</th>
+<th>QTY</th>
+<th>AVG</th>
+<th>PNL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RELIANCE</td>
+<td>20</td>
+<td>1450</td>
+<td class="green">+5400</td>
+</tr>
+<tr>
+<td>INFY</td>
+<td>40</td>
+<td>1510</td>
+<td class="green">+2100</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+function openChart(symbol){
+
+    const url =
+    `https://www.tradingview.com/chart/?symbol=NSE:${symbol}`
+
+    window.open(url, '_blank')
+
+}
+
+async function loadBreakout(){
+
+    try{
+
+        const response = await fetch(
+            'http://127.0.0.1:5000/breakout-beacon'
+        )
+
+        const data = await response.json()
+
+        let html = ''
+
+        let topRfac = 0
+
+        if(data.length > 0){
+
+            data.forEach(stock => {
+
+                if(Math.abs(stock.rfact) > topRfac){
+                    topRfac = Math.abs(stock.rfact)
+                }
+
+                html += `
+
+                <tr>
+
+                <td class="green">
+                ${stock.symbol}
+                </td>
+
+                <td>
+                ₹ ${stock.ltp}
+                </td>
+
+                <td class="${
+                    stock.percent_change >= 0
+                    ? 'green'
+                    : 'red'
+                }">
+
+                ${stock.percent_change}%
+
+                </td>
+
+                <td>
+
+                <button class="chart-btn"
+                onclick="openChart('${stock.symbol}')">
+
+                📈
+
+                </button>
+
+                </td>
+
+                <td class="${
+                    stock.rfact >= 0
+                    ? 'rfac-high'
+                    : 'rfac-low'
+                }">
+
+                ${stock.rfact}
+
+                </td>
+
+                </tr>
+
+                `
+
+            })
+
+        }
+
+        else{
+
+            html = `
+            <tr>
+            <td colspan="5">
+            NO BREAKOUT DATA
+            </td>
+            </tr>
+            `
+
+        }
+
+        document.getElementById(
+            'breakout-body'
+        ).innerHTML = html
+
+        document.getElementById(
+            'signal-count'
+        ).innerHTML = data.length
+
+        document.getElementById(
+            'top-rfac'
+        ).innerHTML = topRfac
+
+    }
+
+    catch(err){
+        console.log(err)
+    }
+
+}
+
+async function loadBoost(){
+
+    try{
+
+        const response = await fetch(
+            'http://127.0.0.1:5000/intraday-boost'
+        )
+
+        const data = await response.json()
+
+        let html = ''
+
+        if(data.length > 0){
+
+            data.forEach(stock => {
+
+                html += `
+
+                <tr>
+
+                <td class="green">
+                ${stock.symbol}
+                </td>
+
+                <td>
+                ₹ ${stock.ltp}
+                </td>
+
+                <td>
+                ${stock.rfact}
+                </td>
+
+                <td class="${
+                    stock.move >= 0
+                    ? 'green'
+                    : 'red'
+                }">
+
+                ${stock.move}%
+
+                </td>
+
+                <td>
+
+                <button class="chart-btn"
+                onclick="openChart('${stock.symbol}')">
+
+                📈
+
+                </button>
+
+                </td>
+
+                <td class="${
+                    stock.rfact >= 0
+                    ? 'rfac-high'
+                    : 'rfac-low'
+                }">
+
+                ${stock.rfact}
+
+                </td>
+
+                </tr>
+
+                `
+
+            })
+
+        }
+
+        else{
+
+            html = `
+            <tr>
+            <td colspan="6">
+            NO BOOST DATA
+            </td>
+            </tr>
+            `
+
+        }
+
+        document.getElementById(
+            'boost-body'
+        ).innerHTML = html
+
+    }
+
+    catch(err){
+        console.log(err)
+    }
+
+}
+
+async function loadSector(){
+
+    try{
+
+        const response = await fetch(
+            'http://127.0.0.1:5000/live-sector'
+        )
+
+        const data = await response.json()
+
+        let html = ''
+
+        data.forEach(sec => {
+
+            let strength = sec.strength || 0
+
+            let height = Math.abs(strength) * 30
+
+            if(height < 30){
+                height = 30
+            }
+
+            let color =
+            strength >= 0
+            ? '#00ffb3'
+            : '#ff4b6e'
+
+            html += `
+
+            <div class="bar-wrap">
+
+            <div class="bar"
+            style="
+            height:${height}px;
+            background:${color};
+            ">
+            </div>
+
+            <div class="bar-name">
+            ${sec.sector}
+            </div>
+
+            </div>
+
+            `
+
+        })
+
+        document.getElementById(
+            'sector-bars'
+        ).innerHTML = html
+
+    }
+
+    catch(err){
+        console.log(err)
+    }
+
+}
+
+async function loadMarketTrend(){
+
+    try{
+
+        const response = await fetch(
+            'http://127.0.0.1:5000/market-trend'
+        )
+
+        const data = await response.json()
+
+        const box = document.getElementById(
+            'market-trend-box'
+        )
+
+        box.innerHTML = `
+        📊 MARKET TREND :
+        ${data.signal}
+        (${data.strength})
+        `
+
+        if(String(data.signal).includes('BULL')){
+
+            box.className =
+            'market-trend bullish'
+
+        }
+
+        else{
+
+            box.className =
+            'market-trend bearish'
+
+        }
+
+    }
+
+    catch(err){
+        console.log(err)
+    }
+
+}
+
+function loadAll(){
+
+    loadBreakout()
+    loadBoost()
+    loadSector()
+    loadMarketTrend()
+
+}
+
+loadAll()
+
+setInterval(loadAll, 5000)
+
+</script>
+
+</body>
+</html>
+```
